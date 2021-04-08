@@ -5,14 +5,10 @@ export const state = () => ({
     show: false,
     type: null,
     msg: ''
-  },
-  user: {}
+  }
 })
 
 export const mutations = {
-  SETUSER (state, data) {
-    state.user = data
-  },
   LOADIND_DIALOG (state, data) {
     state.loading_dialog = data
   },
